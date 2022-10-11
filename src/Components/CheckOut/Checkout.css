@@ -1,0 +1,58 @@
+.checkout-page{
+    display: flex;
+    justify-content: space-evenly;
+}
+form{
+    width: 35%;
+}
+.ingredients-check{
+    display: flex;
+    width: 260px;
+    height: 280px;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.ingredients>span{
+    font-size: 16px;
+    font-weight: 600;
+}
+.ingredients-check>img{
+    width: 100%;
+    height: auto;
+}
+.igredients-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+.checkout-page__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+textarea{
+    resize: none;
+}
+input[name="name"],input[name="email"]{
+    width: 50%;
+}
+.reset,.submit{
+    padding: 8px 10px;
+    font-size: 16px;
+    border: 0;
+    color: #fff;
+    border-radius: 5px;
+}
+.btns.checkout-page__item{
+    justify-content: flex-end;
+}
+.reset{
+    margin-right: 10px;
+    background-color: rgb(107, 106, 106);
+}
+.submit{
+    background-color: rgb(47, 134, 216);
+}
+.submit:disabled{
+    background-color: #838383;
+}

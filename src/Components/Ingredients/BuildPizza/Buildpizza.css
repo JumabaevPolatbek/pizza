@@ -1,0 +1,33 @@
+.build{
+    width: 70%;
+    padding-left: 20px;
+}
+h1{
+    text-align: center;
+}
+.build-pizza{
+    display: flex;
+    flex-wrap: wrap;
+}
+.images{
+    width: 260px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #838383;
+    padding: 5px;
+}
+.images:not(:first-child){
+    margin-left: 5px;
+}
+.images>img{
+    width: 100%;
+    height: auto;
+}
+.images>span{
+    align-self: flex-end;
+    font-size: 16px;
+    font-weight: 600;
+}
