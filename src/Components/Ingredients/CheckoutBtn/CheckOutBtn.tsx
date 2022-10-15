@@ -7,7 +7,7 @@ import './Checkout.css'
 export default function CheckOutBtn() {
     const [modal, setModal] = React.useState(false)
     const { pizzaItems, totalSum } = usePizza()
-    const checkout = (pizzaItems: pizzaItems[]) => {
+    const checkout = (pizzaItems: pizzaItems[]):boolean => {
         if (pizzaItems.length > 1) {
             return false
         }else return true

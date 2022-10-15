@@ -1,0 +1,64 @@
+.load{
+    border: 1px solid #838383;
+    padding: 10px 9px; 
+    width: 100%;
+}
+.load-btn{
+    padding: 8px 5px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+}
+.modal-load{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(68, 68, 68, 0.637);
+    justify-content: center;
+    align-items: center;
+}
+.modal-load__info{
+    background-color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 100px;
+    width: 300px;
+}
+.modal-load__info>input{
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 2px;
+    border: 1px solid #838383;
+    font-size: 16px;
+    width: 100%;
+}
+.modal-load__btns{
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+}
+.modal-load__btns>button{
+    padding: 8px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+}
+.submit{
+    background-color: rgb(31, 115, 211);
+}
+.cancel{
+    background-color: rgb(68, 68, 68);
+    margin-right: 10px;
+}

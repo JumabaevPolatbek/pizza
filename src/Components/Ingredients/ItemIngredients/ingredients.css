@@ -67,15 +67,7 @@ h2{
     display: flex;
     justify-content: flex-start;
 }
-.load{
-    background-color: rgb(15, 15, 15);
-    color: #fff;
-    padding: 8px 5px;
-    font-size: 16px;
-    border-radius: 5px;
-    border:1px solid #3333;
-    width: fit-content;
-}
+
 .uuid{
     border: 1px solid #838383;
     font-size: 16px;

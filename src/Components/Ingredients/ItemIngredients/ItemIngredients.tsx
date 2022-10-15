@@ -3,6 +3,7 @@ import { pizzas } from "../../../data"
 import List from "../List/List"
 import './ingredients.css'
 import CheckOutBtn from "../CheckoutBtn/CheckOutBtn"
+import LoadBtn from "../LoadBtn/LoadBtn"
 
 export default function ItemIngredients() {
     const { totalSum, reset, save, pizzaItems, savePizza } = usePizza()
@@ -36,9 +37,7 @@ export default function ItemIngredients() {
                     <button className="save" onClick={()=>save(pizzaItems)}>Save Pizza</button>
                     <CheckOutBtn/>
                 </div>
-                <div className="btn">
-                    <button className="load">Load Pizza</button>
-                </div>
+                <LoadBtn/>
             </div>
             {savePizza.length > 0 ?
                 (
